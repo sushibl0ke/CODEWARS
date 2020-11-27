@@ -6,6 +6,10 @@ Codewars-Nomeber-24
 
 >Contains Tasks from November 24th and onward
 
+Codewars-Everything
+
+>Contains every single codewars solution of mine
+
 Codewars-Matrix
 
 >Contains Matrix exercises 
