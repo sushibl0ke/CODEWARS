@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" style="-fx-background-color: gray;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="465.0" prefWidth="483.0" style="-fx-background-color: gray;">
+         <children>
+            <TextField fx:id="txtInputHours" layoutX="41.0" layoutY="144.0" prefHeight="33.0" prefWidth="176.0" promptText="Въведете число" />
+            <Label layoutX="41.0" layoutY="95.0" prefHeight="33.0" prefWidth="176.0" text="Часове спортуване:" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="264.0" layoutY="95.0" prefHeight="33.0" prefWidth="176.0" text="Специфичен Спорт:" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCalc" layoutX="31.0" layoutY="368.0" mnemonicParsing="false" onAction="#btnCalculateAction" prefHeight="45.0" prefWidth="125.0" text="Изчисли" textFill="#4712f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClear" layoutX="179.0" layoutY="368.0" mnemonicParsing="false" onAction="#btnClearAction" prefHeight="45.0" prefWidth="125.0" text="Изчисти" textFill="#08a14a">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnExit" layoutX="322.0" layoutY="368.0" mnemonicParsing="false" onAction="#btnExitAction" prefHeight="45.0" prefWidth="125.0" text="Излез" textFill="#d31010">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtFinal" editable="false" layoutX="48.0" layoutY="255.0" prefHeight="45.0" prefWidth="378.0" style="-fx-border-color: red;" />
+            <Label layoutX="154.0" layoutY="210.0" prefHeight="45.0" prefWidth="176.0" text="Изгорени Калории:" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="combo" layoutX="277.0" layoutY="148.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
