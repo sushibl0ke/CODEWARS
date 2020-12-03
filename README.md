@@ -2,6 +2,10 @@
 Vladimir Hristakiev 11A
 
 # Contains
+Codewars-December-1
+
+>Contains Tasks from December 1st and onward
+
 Codewars-Nomeber-24
 
 >Contains Tasks from November 24th and onward
