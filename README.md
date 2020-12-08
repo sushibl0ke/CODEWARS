@@ -22,6 +22,10 @@ Codewars-Matrix
 
 >Contains Matrix exercises 
 
+Java Generics Presentation
+
+>A presentation with examples about restrictions in Java Generics
+
 JavaFX-Programs
 
 >Contains Java FX exercises and projects
