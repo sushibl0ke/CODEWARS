@@ -4,15 +4,15 @@ Vladimir Hristakiev 11A
 # Contains
 Codewars-December-1
 
->Contains Tasks from December 1st and onward
+>Contains Tasks from December 1st
 
 Codewars-Nomeber-24
 
->Contains Tasks from November 24th and onward
+>Contains Tasks from November 24th
 
 Codewars-Everything
 
->Contains every single codewars solution of mine
+>Contains various exercises
 
 Codewars-Matrix
 
