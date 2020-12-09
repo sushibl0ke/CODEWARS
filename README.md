@@ -29,5 +29,3 @@ Java Generics Presentation
 JavaFX-Programs
 
 >Contains Java FX exercises and projects
-
-test
