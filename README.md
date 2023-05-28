@@ -1,6 +1,3 @@
-# Java Tasks
-Vladimir Hristakiev 11A
-
 # Contains
 Codewars-December-1
 
